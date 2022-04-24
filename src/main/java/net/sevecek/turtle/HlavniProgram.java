@@ -22,8 +22,51 @@ public class HlavniProgram {
 
 
         nakresliDomecek(zofka);
+        zofka.penUp();
+        zofka.turnRight(90);
+        zofka.move(280);
+        zofka.penDown();
+        zofka.turnLeft(90);
 
+        nakresliDomecek(zofka);
 
+        zofka.penUp();
+        zofka.move(100);
+        zofka.penDown();
+
+        nakresliDomecek(zofka);
+
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(80);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        nakresliDomecek(zofka);
+
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(80);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        nakresliDomecek(zofka);
+
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(80);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        nakresliDomecek(zofka);
+
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(80);
+        zofka.turnRight(90);
+        zofka.penDown();
+
+        nakresliDomecek(zofka);
 
 
     }
