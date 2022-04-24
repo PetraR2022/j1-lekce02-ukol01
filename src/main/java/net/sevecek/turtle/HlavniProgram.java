@@ -14,79 +14,90 @@ public class HlavniProgram {
 
         nakresliPrasatko(zofka);
 
+        zofka.turnLeft(70);
+        zofka.penUp();
+        zofka.move(100);
+        zofka.penDown();
+        zofka.turnRight(90);
+
+
+        nakresliDomecek(zofka);
+
+
+
 
     }
 
     private void nakresliPrasatko(Turtle zofka) {
-        zofka.move(150);
+        zofka.move(50);
         zofka.turnRight(90);
-        zofka.move(300);
+        zofka.move(80);
         zofka.turnRight(90);
-        zofka.move(150);
+        zofka.move(50);
         zofka.turnRight(90);
-        zofka.move(300);
+        zofka.move(80);
         zofka.turnRight(180);
         zofka.penUp();
-        zofka.move(300);
+        zofka.move(80);
         zofka.penDown();
         zofka.turnLeft(30);
-        zofka.move(150);
+        zofka.move(50);
         zofka.turnLeft(120);
-        zofka.move(150);
+        zofka.move(50);
         zofka.penUp();
         zofka.turnLeft(120);
-        zofka.move(150);
+        zofka.move(50);
         zofka.penDown();
         zofka.turnLeft(50);
-        zofka.move(80);
+        zofka.move(20);
         zofka.turnLeft(180);
         zofka.penUp();
-        zofka.move(80);
+        zofka.move(20);
         zofka.penDown();
         zofka.turnLeft(90);
-        zofka.move(80);
+        zofka.move(20);
         zofka.turnLeft(180);
         zofka.penUp();
-        zofka.move(80);
+        zofka.move(20);
         zofka.penUp();
         zofka.turnLeft(130);
-        zofka.move(300);
+        zofka.move(80);
         zofka.penDown();
         zofka.turnLeft(50);
-        zofka.move(80);
+        zofka.move(20);
         zofka.turnLeft(180);
         zofka.penUp();
-        zofka.move(80);
+        zofka.move(20);
         zofka.penDown();
         zofka.turnRight(90);
-        zofka.move(80);
+        zofka.move(20);
         zofka.turnLeft(180);
         zofka.penUp();
-        zofka.move(80);
-        zofka.turnRight(130);
+        zofka.move(20);
+        zofka.turnRight(30);
     }
 
     private void nakresliDomecek(Turtle zofka) {
         zofka.setPenColor(Color.black);
         for (int i = 0; i < 4; i++) {
-            zofka.move(150);
+            zofka.move(40);
             zofka.turnRight(90);
         }
 
         zofka.penUp();
-        zofka.move(150);
+        zofka.move(40);
         zofka.penDown();
 
         zofka.turnRight(30);
-        zofka.move(150);
+        zofka.move(40);
         zofka.turnRight(120);
-        zofka.move(150);
+        zofka.move(40);
 
         zofka.turnRight(30);
         zofka.penUp();
-        zofka.move(150);
+        zofka.move(40);
         zofka.turnRight(90);
-        zofka.move(150);
+        zofka.move(40);
         zofka.turnRight(90);
         zofka.penDown();
 
