@@ -69,6 +69,8 @@ public class HlavniProgram {
         nakresliDomecek(zofka);
 
 
+
+
     }
 
     private void nakresliPrasatko(Turtle zofka) {
