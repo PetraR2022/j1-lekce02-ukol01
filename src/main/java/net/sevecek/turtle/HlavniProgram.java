@@ -68,9 +68,54 @@ public class HlavniProgram {
 
         nakresliDomecek(zofka);
 
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(150);
+        zofka.turnRight(90);
+        zofka.move(80);
+        zofka.penDown();
+
+            nakresliKolecko(zofka);
 
 
+    }
 
+    private void nakresliKolecko(Turtle zofka) {
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
+        zofka.move(5);
+        zofka.turnRight(20);
     }
 
     private void nakresliPrasatko(Turtle zofka) {
